@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DotNetNuke.Modules.Announcements.SqlDataProvider
+</name>
+</assembly>
+<members>
+<member name="T:DotNetNuke.Modules.Announcements.SqlDataProvider">
+ -----------------------------------------------------------------------------
+ <summary>
+ The SqlDataProvider Class is an SQL Server implementation of the DataProvider Abstract
+ class that provides the DataLayer for the Announcments Module.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[cnurse]	9/20/2004	Moved Announcements to a separate Project
+ </history>
+ -----------------------------------------------------------------------------
+
+</member>
+</members>
+</doc>
