@@ -180,7 +180,6 @@
         <tr><td colspan="5" align="right"><asp:ImageButton id="imgBtnSend" runat="server" OnClick="imgBtnSend_Click" ImageUrl="/Portals/0/titles_text/send.jpg" CausesValidation="true"  /></td></tr>
     </table>
   </td></tr>
-  
 </table>
 
 <p style="text-align:center" class="paging">
