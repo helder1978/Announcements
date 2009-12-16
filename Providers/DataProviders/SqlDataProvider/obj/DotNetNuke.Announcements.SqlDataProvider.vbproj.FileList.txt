@@ -1,0 +1,10 @@
+obj\Release\ResolveAssemblyReference.cache
+..\..\..\..\..\bin\DotNetNuke.Modules.Announcements.SqlDataProvider.dll
+..\..\..\..\..\bin\DotNetNuke.Modules.Announcements.SqlDataProvider.xml
+obj\Release\DotNetNuke.Modules.Announcements.SqlDataProvider.dll
+obj\Release\DotNetNuke.Modules.Announcements.SqlDataProvider.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DotNetNuke.Modules.Announcements.SqlDataProvider.dll
+obj\Debug\DotNetNuke.Modules.Announcements.SqlDataProvider.xml
+obj\Debug\DotNetNuke.Modules.Announcements.SqlDataProvider.pdb
+..\..\..\..\..\bin\DotNetNuke.Modules.Announcements.SqlDataProvider.pdb

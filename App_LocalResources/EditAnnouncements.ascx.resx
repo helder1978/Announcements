@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="plTitle.Text">
+		<value>Title</value>
+	</data>
+	<data name="plTitle.Help">
+		<value>Enter a Title for the Announcment.  Depending on the Skin, this title will appear in bold.</value>
+	</data>
+	<data name="plDescription.Text">
+		<value>Description</value>
+	</data>
+	<data name="plDescription.Help">
+		<value>Enter a description of the Announcement</value>
+	</data>
+	<data name="plURL.Text">
+		<value>Link</value>
+	</data>
+	<data name="plURL.Help">
+		<value>The Announcment can optionally link to an external URL, a Page within this site or to a File within this site.</value>
+	</data>
+	<data name="plPublishDate.Text">
+		<value>Publish Date</value>
+	</data>
+	<data name="plPublishDate.Help">
+		<value>Enter an Publish Date for the Announcement.  The Announcement will only display from this date.</value>
+	</data>
+	<data name="Title.ErrorMessage">
+		<value>You Must Enter A Title For The Announcement</value>
+	</data>
+	<data name="Description.ErrorMessage">
+		<value>You Must Enter A Description Of The Announcement</value>
+	</data>
+	<data name="PublishDate.ErrorMessage">
+		<value>&lt;br&gt;You have entered an invalid date!</value>
+	</data>
+	<data name="plViewOrder.Text">
+		<value>View Order</value>
+	</data>
+	<data name="plViewOrder.Help">
+		<value>Enter the View Order for the Announcement.</value>
+	</data>
+	<data name="ViewOrder.ErrorMessage">
+		<value>&lt;br&gt;View order must be an integer value.</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;About the Announcements Module&lt;/h1&gt;
+&lt;p&gt;The Announcements Module produces a list of simple text announcements consisting 
+of a title and brief description. Options include a read more link to a file, page 
+or other site. Link click tracking and logging are also available. Announcements 
+are ordered from newest to oldest, unless a view order is specified.&lt;/p&gt;
+&lt;h2&gt;Add an Announcement&lt;/h2&gt;
+&lt;ol&gt;
+	&lt;li&gt;Add an &lt;b&gt;Announcements&lt;/b&gt; module, or go to an existing &lt;b&gt;Announcements&lt;/b&gt; 
+	module.&lt;/li&gt;
+	&lt;li&gt;Click &lt;b&gt;Add New Announcement&lt;/b&gt;. &lt;/li&gt;
+	&lt;li&gt;At &lt;b&gt;Title&lt;/b&gt;, enter a title for the announcement.&lt;/li&gt;
+	&lt;li&gt;at &lt;b&gt;Image&lt;/b&gt;, select an image to be displayed with this announcement 
+	(optional)&lt;/li&gt;
+	&lt;li&gt;At &lt;b&gt;Description&lt;/b&gt;, enter a description of the Announcement.&lt;/li&gt;
+	&lt;li&gt;At &lt;b&gt;Link Type&lt;/b&gt; (optional), select &lt;b&gt;URL&lt;/b&gt;, &lt;b&gt;Page&lt;/b&gt;, &lt;b&gt;File 
+	or User&lt;/b&gt; 
+	and then at &lt;b&gt;Link&lt;/b&gt; select or enter the required link, page, file or 
+	user 
+	&lt;/li&gt;
+	&lt;li&gt;At &lt;b&gt;Track Number Of Times This Link Is Clicked?&lt;/b&gt; (optional), check 
+	the box if required.&lt;/li&gt;
+	&lt;li&gt;At &lt;b&gt;Log The User, Date, And Time For Every Link Click&lt;/b&gt; (optional), 
+	check the box if required.&lt;/li&gt;
+	&lt;li&gt;At &lt;b&gt;View Order&lt;/b&gt; (optional), enter the View Order for the Announcement.
+	&lt;/li&gt;
+	&lt;li&gt;Click &lt;b&gt;Update&lt;/b&gt;.&lt;/li&gt;
+&lt;/ol&gt;</value>
+	</data>
+	<data name="ControlTitle_edit.Text">
+		<value>Edit Announcements</value>
+	</data>
+	<data name="PublishDateRequired.ErrorMessage">
+		<value>&lt;br&gt;You must enter a date</value>
+	</data>
+	<data name="plExpireDate.Text">
+		<value>Expire Date</value>
+	</data>
+	<data name="ExpireDate.ErrorMessage">
+		<value>&lt;br&gt;You have entered an invalid date!</value>
+	</data>
+	<data name="plExpireDate.Help">
+		<value>Enter an expiration date. </value>
+	</data>
+	<data name="plImage.Text">
+		<value>Image</value>
+	</data>
+	<data name="plImage.Help">
+		<value>Select and Image for the Announcement.</value>
+	</data>
+</root>

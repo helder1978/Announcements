@@ -1,0 +1,49 @@
+<%@ Control Language="vb" Inherits="DotNetNuke.Modules.Announcements.Announcements"
+    Codebehind="Announcements.ascx.vb" AutoEventWireup="false" Explicit="True" %>
+<%@ Register TagPrefix="dnn" TagName="Label" Src="~/controls/LabelControl.ascx" %>
+<asp:panel id="canadeanNews" runat="server" Visible="true">
+<table>
+<tr>
+    <td>
+        <asp:Label ID="lblTitle" runat="server" Text="News"></asp:Label>
+    </td>
+    <td>
+        <asp:Label ID="lblMonthYear" runat="server" Text="Filter by Month/Year"></asp:Label>
+        <asp:DropDownList ID="ddMonthYear" runat="server" AutoPostBack="True">
+        </asp:DropDownList>
+    </td>
+</tr>
+</table>
+
+</asp:panel>
+<asp:Panel ID="canadeanEvents" runat="server" Visible="false">
+</asp:Panel>
+<asp:Panel ID="canadeanPressReleases" runat="server" Visible="false">
+<table>
+<tr>
+    <td>
+        <asp:Label ID="lblCanadeanPressReleases" runat="server" Text="Press Releases"></asp:Label>
+    </td>
+    <td>
+        <asp:Label ID="lblSelection" runat="server" Text="Categories"></asp:Label>
+        <asp:DropDownList ID="ddlPressReleases" runat="server"  AutoPostBack="True">
+            <asp:ListItem Text="Select a Press Release Category" Value="0"></asp:ListItem> 
+            <asp:ListItem Text="General" Value="1"></asp:ListItem>
+            <asp:ListItem Text="Soft Drinks" Value="2"></asp:ListItem>
+            <asp:ListItem Text="Beer" Value="3"></asp:ListItem>
+            <asp:ListItem Text="Beverage Packaging" Value="4"></asp:ListItem>
+            <asp:ListItem Text="Dairy Drinks" Value="5"></asp:ListItem>
+        </asp:DropDownList>
+    </td>
+</tr>
+</table>
+</asp:Panel>
+<div style="padding:15px;">
+
+</div>
+<div class="DNN_ANN_viewtypeSelector" id="viewtypeSelector" runat="server" visible="false">
+    <div class="DNN_ANN_viewtypeSelectorLabel"><dnn:Label ID="plSelectView" runat="server" ControlName="ddlViewType" Suffix=":" CssClass="SubHead" visible="false"></dnn:Label></div>
+    <div class="DNN_ANN_viewtypeSelectorDDL"><asp:DropDownList ID="ddlViewType" CssClass="NormalTextBox" runat="server" AutoPostBack="True" Visible="false"></asp:DropDownList></div>
+</div>
+<asp:Literal ID="litAnnouncements" runat="server"></asp:Literal>
+<asp:Literal ID="paging" runat="server"></asp:Literal> 

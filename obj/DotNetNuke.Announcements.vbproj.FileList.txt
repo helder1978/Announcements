@@ -1,0 +1,10 @@
+obj\Release\ResolveAssemblyReference.cache
+..\..\bin\DotNetNuke.Modules.Announcements.dll
+..\..\bin\DotNetNuke.Modules.Announcements.xml
+obj\Release\DotNetNuke.Modules.Announcements.dll
+obj\Release\DotNetNuke.Modules.Announcements.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DotNetNuke.Modules.Announcements.dll
+obj\Debug\DotNetNuke.Modules.Announcements.xml
+obj\Debug\DotNetNuke.Modules.Announcements.pdb
+..\..\bin\DotNetNuke.Modules.Announcements.pdb

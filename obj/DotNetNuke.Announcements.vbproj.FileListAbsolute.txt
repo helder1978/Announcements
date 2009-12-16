@@ -1,0 +1,36 @@
+C:\Documents and Settings\Maria Pedroto\Desktop\Announcements_04.00.00_Source(2)\DNN_Announcements\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Maria Pedroto\Desktop\Announcements_04.00.00_Source(2)\DNN_Announcements\obj\Release\DotNetNuke.Modules.Announcements.dll
+C:\Documents and Settings\Maria Pedroto\Desktop\Announcements_04.00.00_Source(2)\DNN_Announcements\obj\Release\DotNetNuke.Modules.Announcements.xml
+C:\Documents and Settings\Maria Pedroto\Desktop\bin\DotNetNuke.Modules.Announcements.dll
+C:\Documents and Settings\Maria Pedroto\Desktop\bin\DotNetNuke.Modules.Announcements.xml
+C:\Documents and Settings\Maria Pedroto\Desktop\announcements16012008\bin\DotNetNuke.Modules.Announcements.dll
+C:\Documents and Settings\Maria Pedroto\Desktop\announcements16012008\bin\DotNetNuke.Modules.Announcements.xml
+C:\Documents and Settings\Maria Pedroto\Desktop\announcements16012008\Announcements_04.00.00_Source(2)\DNN_Announcements\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Maria Pedroto\Desktop\announcements16012008\Announcements_04.00.00_Source(2)\DNN_Announcements\obj\Release\DotNetNuke.Modules.Announcements.dll
+C:\Documents and Settings\Maria Pedroto\Desktop\announcements16012008\Announcements_04.00.00_Source(2)\DNN_Announcements\obj\Release\DotNetNuke.Modules.Announcements.xml
+C:\announcements\Announcements_04.00.00_Source(2)\DNN_Announcements\obj\Release\ResolveAssemblyReference.cache
+C:\announcements\Announcements_04.00.00_Source(2)\DNN_Announcements\obj\Release\DotNetNuke.Modules.Announcements.dll
+C:\announcements\Announcements_04.00.00_Source(2)\DNN_Announcements\obj\Release\DotNetNuke.Modules.Announcements.xml
+C:\announcements\bin\DotNetNuke.Modules.Announcements.dll
+C:\announcements\bin\DotNetNuke.Modules.Announcements.xml
+D:\sunday\bin\DotNetNuke.Modules.Announcements.dll
+D:\sunday\bin\DotNetNuke.Modules.Announcements.pdb
+D:\sunday\bin\DotNetNuke.Modules.Announcements.xml
+D:\sunday\DNN_Announcements12\DNN_Announcements\obj\Debug\ResolveAssemblyReference.cache
+D:\sunday\DNN_Announcements12\DNN_Announcements\obj\Debug\DotNetNuke.Modules.Announcements.dll
+D:\sunday\DNN_Announcements12\DNN_Announcements\obj\Debug\DotNetNuke.Modules.Announcements.xml
+D:\sunday\DNN_Announcements12\DNN_Announcements\obj\Debug\DotNetNuke.Modules.Announcements.pdb
+C:\Documents and Settings\mpedroto.WEBWAREMOBILE\Desktop\Copy of sunday\bin\DotNetNuke.Modules.Announcements.dll
+C:\Documents and Settings\mpedroto.WEBWAREMOBILE\Desktop\Copy of sunday\bin\DotNetNuke.Modules.Announcements.pdb
+C:\Documents and Settings\mpedroto.WEBWAREMOBILE\Desktop\Copy of sunday\bin\DotNetNuke.Modules.Announcements.xml
+C:\Documents and Settings\mpedroto.WEBWAREMOBILE\Desktop\Copy of sunday\DNN_Announcements12\DNN_Announcements\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\mpedroto.WEBWAREMOBILE\Desktop\Copy of sunday\DNN_Announcements12\DNN_Announcements\obj\Debug\DotNetNuke.Modules.Announcements.dll
+C:\Documents and Settings\mpedroto.WEBWAREMOBILE\Desktop\Copy of sunday\DNN_Announcements12\DNN_Announcements\obj\Debug\DotNetNuke.Modules.Announcements.xml
+C:\Documents and Settings\mpedroto.WEBWAREMOBILE\Desktop\Copy of sunday\DNN_Announcements12\DNN_Announcements\obj\Debug\DotNetNuke.Modules.Announcements.pdb
+D:\Work Docs\Part-time\Liveline\Canadean\@devel\Announcements\announc16052008\bin\DotNetNuke.Modules.Announcements.dll
+D:\Work Docs\Part-time\Liveline\Canadean\@devel\Announcements\announc16052008\bin\DotNetNuke.Modules.Announcements.pdb
+D:\Work Docs\Part-time\Liveline\Canadean\@devel\Announcements\announc16052008\bin\DotNetNuke.Modules.Announcements.xml
+D:\Work Docs\Part-time\Liveline\Canadean\@devel\Announcements\announc16052008\DNN_Announcements12\DNN_Announcements\obj\Debug\ResolveAssemblyReference.cache
+D:\Work Docs\Part-time\Liveline\Canadean\@devel\Announcements\announc16052008\DNN_Announcements12\DNN_Announcements\obj\Debug\DotNetNuke.Modules.Announcements.dll
+D:\Work Docs\Part-time\Liveline\Canadean\@devel\Announcements\announc16052008\DNN_Announcements12\DNN_Announcements\obj\Debug\DotNetNuke.Modules.Announcements.xml
+D:\Work Docs\Part-time\Liveline\Canadean\@devel\Announcements\announc16052008\DNN_Announcements12\DNN_Announcements\obj\Debug\DotNetNuke.Modules.Announcements.pdb

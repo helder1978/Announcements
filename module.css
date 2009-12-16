@@ -1,0 +1,32 @@
+/* ========================================
+    CSS STYLES FOR Module DNN.Announcements
+   ========================================
+*/
+.DNN_ANN_DesignTable
+{
+	width:auto;
+}
+
+.DNN_ANN_Description
+{
+}
+
+.DNN_ANN_Description P
+{
+	margin-top:0px;
+}
+
+.DNN_ANN_viewtypeSelector 
+{
+	float:right;
+}
+
+.DNN_ANN_viewtypeSelectorLabel
+{
+	float:left;
+}
+
+.DNN_ANN_viewtypeSelectorDDL
+{
+	float:left;
+}

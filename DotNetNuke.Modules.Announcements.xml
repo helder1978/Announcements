@@ -1,0 +1,938 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DotNetNuke.Modules.Announcements
+</name>
+</assembly>
+<members>
+<member name="P:DotNetNuke.Modules.Announcements.Template.Name">
+	<summary>
+ Gets and sets the name of the template
+ </summary>
+	<history>
+    [erikvb]   11/24/2007    created
+ </history>
+</member><member name="P:DotNetNuke.Modules.Announcements.Template.ItemTemplate">
+	<summary>
+ Gets and sets the Item Template
+ </summary>
+	<history>
+    [erikvb]   11/24/2007    created
+ </history>
+</member><member name="P:DotNetNuke.Modules.Announcements.Template.AltItemTemplate">
+	<summary>
+ Gets and sets the alternate item template
+ </summary>
+	<history>
+    [erikvb]   11/24/2007    created
+ </history>
+</member><member name="P:DotNetNuke.Modules.Announcements.Template.Separator">
+	<summary>
+ Gets and sets the Separator
+ </summary>
+	<history>
+    [erikvb]   11/24/2007    created
+ </history>
+</member><member name="P:DotNetNuke.Modules.Announcements.Template.HeaderTemplate">
+	<summary>
+ Gets and sets the HeaderTemplate
+ </summary>
+	<history>
+    [erikvb]   11/24/2007    created
+ </history>
+</member><member name="P:DotNetNuke.Modules.Announcements.Template.FooterTemplate">
+	<summary>
+ Gets and sets the FooterTemplate
+ </summary>
+	<history>
+    [erikvb]   11/24/2007    created
+ </history>
+</member><member name="M:DotNetNuke.Modules.Announcements.AnnouncementInfo.#ctor">
+ -----------------------------------------------------------------------------
+ <summary>
+ Constructs a new AnnouncementInfo instance
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.AnnouncementInfo.ItemId">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets the Id of the announcment
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.AnnouncementInfo.ModuleId">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets the Id of the module to which the annoucement belongs
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.AnnouncementInfo.Title">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets the Title of the announcment
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.AnnouncementInfo.Url">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets the Url of the announcment
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.AnnouncementInfo.ViewOrder">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets the View Order of the announcment
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.AnnouncementInfo.Description">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets the Description of the announcment
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.AnnouncementInfo.ImageSource">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets the Image Source of the announcment
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.AnnouncementInfo.CreatedByUser">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets the Id of the user that last updated the announcment
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.AnnouncementInfo.CreatedDate">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets the date the annoucnement was last changed
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.AnnouncementInfo.TrackClicks">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets a flag that determines whether each time the annoucnement is clicked is tracked
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.AnnouncementInfo.NewWindow">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets a flag that determines whether the link to the annoucnement is opened in a new window
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.AnnouncementInfo.PublishDate">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets a the Publish Date of the annoucement
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.AnnouncementInfo.ExpireDate">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets a the Expiry Date of the annoucement
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:DotNetNuke.Modules.Announcements.AnnouncementInfo.Fill(System.Data.IDataReader)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Fill hydrates the object from a Datareader
+ </summary>
+	<remarks>The Fill method is used by the CBO method to hydrtae the object
+ rather than using the more expensive Refection  methods.</remarks>
+	<history>
+ 	[cnurse]	08/17/2007  Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.AnnouncementInfo.KeyID">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets the Key ID
+ </summary>
+	<remarks>The KeyID property is part of the IHydratble interface.  It is used
+ as the key property when creating a Dictionary</remarks>
+	<history>
+ 	[cnurse]	08/17/2007  Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:DotNetNuke.Modules.Announcements.AnnouncementInfo.GetSchema">
+ -----------------------------------------------------------------------------
+ <summary>
+ GetSchema returns the XmlSchema for this class
+ </summary>
+	<remarks>GetSchema is implemented as a stub method as it is not required</remarks>
+	<history>
+ 	[cnurse]	08/17/2007  Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:DotNetNuke.Modules.Announcements.AnnouncementInfo.ReadXml(System.Xml.XmlReader)">
+ -----------------------------------------------------------------------------
+ <summary>
+ ReadXml fills the object (de-serializes it) from the XmlReader passed
+ </summary>
+	<remarks></remarks>
+	<param name="reader">The XmlReader that contains the xml for the object</param>
+	<history>
+ 	[cnurse]	08/17/2007  Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:DotNetNuke.Modules.Announcements.AnnouncementInfo.WriteXml(System.Xml.XmlWriter)">
+ -----------------------------------------------------------------------------
+ <summary>
+ WriteXml converts the object to Xml (serializes it) and writes it using the XmlWriter passed
+ </summary>
+	<remarks></remarks>
+	<param name="writer">The XmlWriter that contains the xml for the object</param>
+	<history>
+ 	[cnurse]	08/17/2007  Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:DotNetNuke.Modules.Announcements.AnnouncementInfo">
+ -----------------------------------------------------------------------------
+ <summary>
+ The AnnouncementInfo Class provides the Announcements Business Object
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[cnurse]	9/20/2004	Moved Announcements to a separate Project
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:DotNetNuke.Modules.Announcements.PopulatedDatesInfo.#ctor">
+ -----------------------------------------------------------------------------
+ <summary>
+ Constructs a new AnnouncementInfo instance
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.PopulatedDatesInfo.Month">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets the Id of the announcment
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.PopulatedDatesInfo.Year">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets and sets the Id of the module to which the annoucement belongs
+ </summary>
+	<history>
+ 	[erikvb]	11/19/2007  Described
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:DotNetNuke.Modules.Announcements.PopulatedDatesInfo">
+ -----------------------------------------------------------------------------
+ <summary>
+ The AnnouncementInfo Class provides the Announcements Business Object
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[cnurse]	9/20/2004	Moved Announcements to a separate Project
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:DotNetNuke.Modules.Announcements.AnnouncementsTokenReplace">
+ -----------------------------------------------------------------------------
+ <summary>
+ The AnnouncementsTokenReplace Class is a custom token replace class for parsing
+ Announcment templates
+ </summary>
+	<history>
+ 	[cnurse]	08/272007  Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:DotNetNuke.Modules.Announcements.DataProvider">
+ -----------------------------------------------------------------------------
+ <summary>
+ The DataProvider Class Is an abstract class that provides the DataLayer
+ for the Announcments Module.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[cnurse]	9/20/2004	Moved Announcements to a separate Project
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:DotNetNuke.Modules.Announcements.EditAnnouncements.txtTitle">
+	<summary>
+txtTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.EditAnnouncements.valTitle">
+	<summary>
+valTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.EditAnnouncements.valDescription">
+	<summary>
+valDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.EditAnnouncements.txtPublishDate">
+	<summary>
+txtPublishDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.EditAnnouncements.cmdCalendar">
+	<summary>
+cmdCalendar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.EditAnnouncements.valPublishDate">
+	<summary>
+valPublishDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.EditAnnouncements.valPublishDateRequired">
+	<summary>
+valPublishDateRequired control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.EditAnnouncements.txtExpireDate">
+	<summary>
+txtExpireDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.EditAnnouncements.cmdCalendar2">
+	<summary>
+cmdCalendar2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.EditAnnouncements.valExpireDate">
+	<summary>
+valExpireDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.EditAnnouncements.txtViewOrder">
+	<summary>
+txtViewOrder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.EditAnnouncements.valViewOrder">
+	<summary>
+valViewOrder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.EditAnnouncements.cmdUpdate">
+	<summary>
+cmdUpdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.EditAnnouncements.cmdCancel">
+	<summary>
+cmdCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.EditAnnouncements.cmdDelete">
+	<summary>
+cmdDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:DotNetNuke.Modules.Announcements.EditAnnouncements.Page_Load(System.Object,System.EventArgs)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Page_Load runs when the control is loaded
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:DotNetNuke.Modules.Announcements.EditAnnouncements.cmdCancel_Click(System.Object,System.EventArgs)">
+ -----------------------------------------------------------------------------
+ <summary>
+ cmdCancel_Click runs when the cancel button is clicked
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:DotNetNuke.Modules.Announcements.EditAnnouncements.cmdDelete_Click(System.Object,System.EventArgs)">
+ -----------------------------------------------------------------------------
+ <summary>
+ cmdDelete_Click runs when the delete button is clicked
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:DotNetNuke.Modules.Announcements.EditAnnouncements.cmdUpdate_Click(System.Object,System.EventArgs)">
+ -----------------------------------------------------------------------------
+ <summary>
+ cmdUpdate_Click runs when the update button is clicked
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:DotNetNuke.Modules.Announcements.EditAnnouncements">
+ -----------------------------------------------------------------------------
+ <summary>
+ The EditAnnouncements PortalModuleBase is used to manage Announcements
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[cnurse]	9/20/2004	Moved Announcements to a separate Project
+ 	[cnurse]	9/20/2004	Updated to reflect design changes for Help, 508 support
+                       and localisation
+ 	[erikvb]	11/20/2007	updated for version 4.0.0 of the module
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.canadeanNews">
+	<summary>
+canadeanNews control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.lblCategory">
+	<summary>
+lblCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.ddCategories">
+	<summary>
+ddCategories control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.lblMonthYear">
+	<summary>
+lblMonthYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.ddMonthYear">
+	<summary>
+ddMonthYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.canadeanEvents">
+	<summary>
+canadeanEvents control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.canadeanPressReleases">
+	<summary>
+canadeanPressReleases control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.lblCanadeanPressReleases">
+	<summary>
+lblCanadeanPressReleases control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.lblSelection">
+	<summary>
+lblSelection control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.ddlPressReleases">
+	<summary>
+ddlPressReleases control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.viewtypeSelector">
+	<summary>
+viewtypeSelector control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.plSelectView">
+	<summary>
+plSelectView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.ddlViewType">
+	<summary>
+ddlViewType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.litAnnouncements">
+	<summary>
+litAnnouncements control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Announcements.paging">
+	<summary>
+paging control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:DotNetNuke.Modules.Announcements.Announcements">
+	<summary>
+Announcements class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="M:DotNetNuke.Modules.Announcements.Announcements.FormatURL(System.String,System.Boolean)">
+ -----------------------------------------------------------------------------
+ <summary>
+ FormatURL formats a URL
+ </summary>
+	<param name="Link">The link to format</param>
+	<returns>The formatted URL</returns>
+	<history>
+ 	[cnurse]	08/15/2007  Converted to a WAP project for Demo
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:DotNetNuke.Modules.Announcements.Announcements.Page_Load(System.Object,System.EventArgs)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Page_Load runs when the control is loaded
+ </summary>
+	<history>
+ 	[cnurse]	08/15/2007  Converted to a WAP project for Demo
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:DotNetNuke.Modules.Announcements.Announcements.ModuleActions">
+ -----------------------------------------------------------------------------
+ <summary>
+ Gets the modules custom Actions
+ </summary>
+	<history>
+ 	[cnurse]	08/15/2007  Converted to a WAP project for Demo
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:DotNetNuke.Modules.Announcements.CategoryTypes">
+ -----------------------------------------------------------------------------
+ <summary>
+ The CategoryTypes Enumeration the types of announcements
+ </summary>
+	<history>
+ 	[cnurse]	08/15/2007  Converted to a WAP project for Demo
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:DotNetNuke.Modules.Announcements.AnnouncementsController.GetSearchItems(DotNetNuke.Entities.Modules.ModuleInfo)">
+ -----------------------------------------------------------------------------
+ <summary>
+ GetSearchItems implements the ISearchable Interface
+ </summary>
+	<remarks>
+	</remarks>
+	<param name="ModInfo">The ModuleInfo for the module to be Indexed</param>
+	<history>
+		[cnurse]	11/17/2004	documented
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:DotNetNuke.Modules.Announcements.AnnouncementsController.ExportModule(System.Int32)">
+ -----------------------------------------------------------------------------
+ <summary>
+ ExportModule implements the IPortable ExportModule Interface using an XmlWriter
+ and the IXmlSerializable Interface on the AnnoucnementInfo object
+ </summary>
+	<param name="ModuleID">The Id of the module to be exported</param>
+	<history>
+ 	[cnurse]	08/15/2007  Converted to a WAP project for Demo
+ 	[cnurse]	08/18/2007  Updated to use the IXmlSerializable Interface
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:DotNetNuke.Modules.Announcements.AnnouncementsController.ImportModule(System.Int32,System.String,System.String,System.Int32)">
+ -----------------------------------------------------------------------------
+ <summary>
+ ImportModule implements the IPortable ImportModule Interface using an XmlReader
+ and the IXmlSerializable Interface
+ </summary>
+	<param name="ModuleID">The Id of the module to be imported</param>
+	<history>
+ 	[cnurse]	08/15/2007  Converted to a WAP project for Demo
+ 	[cnurse]	08/18/2007  Updated to use the IXmlSerializable Interface
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:DotNetNuke.Modules.Announcements.AnnouncementsController.ImportAnnouncement(System.Xml.XmlNode)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Deserializes announcementInfo xml into new AnnouncementInfo instance.
+ If an error occurs, Nothing is returned
+ 
+ deprecated
+ </summary>
+	<param name="xmlAnnouncement">the xml to be deserialized</param>
+	<returns>AnnouncementInfo instance</returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[erik]	12/07/2006	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:DotNetNuke.Modules.Announcements.AnnouncementsController">
+ -----------------------------------------------------------------------------
+ Namespace:  DotNetNuke.Modules.Announcements
+ Project:    DotNetNuke
+ Class:      AnnouncementsController
+ -----------------------------------------------------------------------------
+ <summary>
+ The AnnouncementsController Class represents the Announcments Business Layer
+ Methods in this class call methods in the Data Layer
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[cnurse]	9/20/2004	Moved Announcements to a separate Project
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:DotNetNuke.Modules.Announcements.ViewTypes">
+ -----------------------------------------------------------------------------
+ <summary>
+ The ViewTypes Enumeration the types of announcements
+ </summary>
+	<history>
+ 	[cnurse]	08/15/2007  Converted to a WAP project for Demo
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.plHistory">
+	<summary>
+plHistory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.txtHistory">
+	<summary>
+txtHistory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.valHistory">
+	<summary>
+valHistory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.plDescriptionLength">
+	<summary>
+plDescriptionLength control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.txtDescriptionLength">
+	<summary>
+txtDescriptionLength control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.valDescriptionLength">
+	<summary>
+valDescriptionLength control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.plHeaderTemplate">
+	<summary>
+plHeaderTemplate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.txtHeaderTemplate">
+	<summary>
+txtHeaderTemplate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.plTemplate">
+	<summary>
+plTemplate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.txtTemplate">
+	<summary>
+txtTemplate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.plAltItemTemplate">
+	<summary>
+plAltItemTemplate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.txtAltItemTemplate">
+	<summary>
+txtAltItemTemplate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.plSeparator">
+	<summary>
+plSeparator control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.txtSeparator">
+	<summary>
+txtSeparator control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.plFooterTemplate">
+	<summary>
+plFooterTemplate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DotNetNuke.Modules.Announcements.Settings.txtFooterTemplate">
+	<summary>
+txtFooterTemplate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:DotNetNuke.Modules.Announcements.Settings.LoadSettings">
+ -----------------------------------------------------------------------------
+ <summary>
+ LoadSettings loads the settings from the Databas and displays them
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+		[cnurse]	10/20/2004	created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:DotNetNuke.Modules.Announcements.Settings.UpdateSettings">
+ -----------------------------------------------------------------------------
+ <summary>
+ UpdateSettings saves the modified settings to the Database
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+		[cnurse]	10/20/2004	created
+		[cnurse]	10/25/2004	upated to use TabModuleId rather than TabId/ModuleId
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:DotNetNuke.Modules.Announcements.Settings">
+ -----------------------------------------------------------------------------
+ <summary>
+ The Settings ModuleSettingsBase is used to manage the 
+ settings for the Links Module
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[cnurse]	9/23/2004	Moved Links to a separate Project
+ 	[cnurse]	9/23/2004	Updated to reflect design changes for Help, 508 support
+                       and localisation
+		[cnurse]	10/20/2004	Converted to a ModuleSettingsBase class
+ </history>
+ -----------------------------------------------------------------------------
+
+</member>
+</members>
+</doc>
