@@ -1251,7 +1251,7 @@ Namespace DotNetNuke.Modules.Announcements
 
                     Dim pos2 As Integer = lh.IndexOf(":")
                     Dim posSp As Integer = lh.IndexOf(" ")
-                    litDebug.Text &= "<!-- Pos2: " & pos2.ToString() & " posSp: " & posSp & "-->"
+                    litDebug.Text &= "<!-- Pos2: " & pos2.ToString() & " posSp: " & posSp & " -->"
                     If pos2 = -1 Then pos2 = posSp
                     If posSp = -1 Then posSp = pos2
 
