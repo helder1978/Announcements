@@ -1089,13 +1089,6 @@ cmdDelete control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="T:DotNetNuke.Modules.Announcements.EditAnnouncements">
-	<summary>
-EditAnnouncements class.
-</summary>
-	<remarks>
-Auto-generated class.
-</remarks>
 </member><member name="T:DotNetNuke.Modules.Announcements.AnnouncementsTokenReplace">
  -----------------------------------------------------------------------------
  <summary>

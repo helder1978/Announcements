@@ -22,6 +22,8 @@
 ' CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
 ' DEALINGS IN THE SOFTWARE.
 '
+
+
 Imports System.text
 Imports System.Web.UI
 Imports System.Web.UI.WebControls
@@ -1247,9 +1249,16 @@ Namespace DotNetNuke.Modules.Announcements
                 If lh IsNot Nothing Then
                     litDebug.Text = "<!-- Category: " & categoryID1 & " NewsTagging: " & objAnnouncement.LongHeading & "-->"
 
-                    Dim pos As Integer = lh.IndexOf(":")
+                    Dim pos2 As Integer = lh.IndexOf(":")
+                    Dim posSp As Integer = lh.IndexOf(" ")
+                    litDebug.Text &= "<!-- Pos2: " & pos2.ToString() & " posSp: " & posSp & " -->"
+                    If pos2 = -1 Then pos2 = posSp
+                    If posSp = -1 Then posSp = pos2
+
+                    Dim pos As Integer = Min(pos2, posSp)
                     If pos > 0 Then
                         Dim catId3Str As String = lh.Substring(0, pos)
+                        litDebug.Text &= "<!-- catId3Str = {" & catId3Str & "} -->"
                         If IsNumeric(catId3Str) Then
                             categoryID3 = Integer.Parse(catId3Str)
 
