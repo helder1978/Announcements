@@ -70,12 +70,12 @@
                         <table cellpadding="2" cellspacing="0" border="0">
                             <tr style="height:50px">
                                 <td valign="top">
-                                    <asp:HyperLink id="hlDataExtract" runat="server" NavigateUrl="/tabid/97/Shop/Buy_Data_Extracts.aspx" CssClass="NormalBold"></asp:HyperLink>
+                                    <asp:HyperLink id="hlDataExtract" runat="server" NavigateUrl="/tabid/97/Default.aspx" CssClass="NormalBold"></asp:HyperLink>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <asp:HyperLink ID="hlDEBuyNow" runat="server" ImageUrl="/Portals/0/images/buy_now_just_50.gif" NavigateUrl="/tabid/97/Shop/Buy_Data_Extracts.aspx" CssClass="NormalBold" />
+                                    <asp:HyperLink ID="hlDEBuyNow" runat="server" ImageUrl="/Portals/0/images/buy_now_just_50.gif" NavigateUrl="/tabid/97/Default.aspx" CssClass="NormalBold" />
                                 </td>
                             </tr>
                          </table>
